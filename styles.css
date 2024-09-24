@@ -4,8 +4,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px red solid;
+    flex-wrap: wrap;
     
+
+    
+}
+
+.container h3 {
+    text-align: center;
 }
 
 a {
@@ -14,4 +20,105 @@ a {
     color:black
     
 }
+
+/* Image */
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+
+}
+
+/* HTML */
+
+h1 {
+    font-family: 'Roboto',sans-serif;
+}
+
+h3 {
+
+    font-family: 'Lato',sans-serif;
+}
+
+/* container-1 */
+
+
+
+
+
+.paragraph {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+/* employee section */
+
+.container-3 {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 10px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.item p {
+   text-align: center;
+   padding-top: 20px;
+}
+
+/* Services */
+
+.service h1 {
+    text-align: center;
+}
+
+.price img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 10px;
+    height: auto;
+   
+}
+
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price h3 {
+   text-align: center;
+}
+
+.price {
+    flex: 0 1 auto;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+}
+
+footer h4 {
+    padding-top: 20px;
+}
+
+
+
 
